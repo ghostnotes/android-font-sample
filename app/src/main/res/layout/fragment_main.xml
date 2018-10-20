@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.main.MainFragment">
+
+    <TextView
+            android:id="@+id/roboto_thin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/roboto_thin_"
+            android:textSize="@dimen/font_large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:fontFamily="@font/roboto_thin"/>
+
+    <TextView
+            android:id="@+id/roboto_thin_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/roboto_thin_italic"
+            android:textSize="@dimen/font_large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/roboto_thin"
+            android:fontFamily="@font/roboto_thin_italic"/>
+
+    <TextView
+            android:id="@+id/roboto_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/roboto_light"
+            android:textSize="@dimen/font_large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/roboto_thin_italic"
+            android:fontFamily="@font/roboto_light"/>
+
+    <TextView
+            android:id="@+id/roboto_light_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/roboto_light_italic"
+            android:textSize="@dimen/font_large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/roboto_light"
+            android:fontFamily="@font/roboto_light_italic"/>
+
+    <TextView
+            android:id="@+id/roboto_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/roboto_regular"
+            android:textSize="@dimen/font_large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/roboto_light_italic"
+            android:fontFamily="@font/roboto" />
+
+    <TextView
+            android:id="@+id/roboto_regular_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/roboto_regular_italic"
+            android:textSize="@dimen/font_large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/roboto_regular"
+            android:fontFamily="@font/roboto_italic"/>
+
+    <TextView
+            android:id="@+id/roboto_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/roboto_medium"
+            android:textSize="@dimen/font_large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/roboto_regular_italic"
+            android:fontFamily="@font/roboto_medium"/>
+
+    <TextView
+            android:id="@+id/roboto_medium_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/roboto_medium_italic"
+            android:textSize="@dimen/font_large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/roboto_medium"
+            android:fontFamily="@font/roboto_medium_italic"/>
+
+    <TextView
+            android:id="@+id/roboto_condensed_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/roboto_condensed_bold"
+            android:textSize="@dimen/font_large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/roboto_medium_italic"
+            android:fontFamily="@font/roboto_condensed_bold"/>
+
+    <TextView
+            android:id="@+id/roboto_condensed_bold_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/roboto_condensed_bold_italic"
+            android:textSize="@dimen/font_large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/roboto_condensed_bold"
+            android:fontFamily="@font/roboto_condensed_bold_italic"/>
+
+</android.support.constraint.ConstraintLayout>

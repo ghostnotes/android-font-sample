@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Font Sample</string>
+
+    <string name="roboto_thin_">Roboto Thin</string>
+    <string name="roboto_thin_italic">Roboto Thin Italic</string>
+
+    <string name="roboto_light">Roboto Light</string>
+    <string name="roboto_light_italic">Roboto Light Italic</string>
+
+    <string name="roboto_regular">Roboto Regular</string>
+    <string name="roboto_regular_italic">Roboto Regular Italic</string>
+
+    <string name="roboto_medium">Roboto Medium</string>
+    <string name="roboto_medium_italic">Roboto Medium Italic</string>
+
+    <string name="roboto_condensed_bold">Roboto Condensed Bold</string>
+    <string name="roboto_condensed_bold_italic">Roboto Condensed Bold Italic</string>
+
+</resources>
